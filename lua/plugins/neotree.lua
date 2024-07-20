@@ -10,7 +10,7 @@ return {
   "nvim-neo-tree/neo-tree.nvim",
   branch = "v3.x",
   keys = {
-    { "<leader>o",  "<cmd>Neotree toggle<cr>",           desc = "NeoTree" },
+    { "<leader>o",  "<cmd>Neotree toggle<cr>",           desc = "NeoTree Toggle" },
     { "<leader>gs", "<cmd>Neotree right git_status<cr>", desc = "Git Status" },
   },
   config = function()

@@ -1,8 +1,8 @@
 -- tab size
 vim.opt.expandtab = true
-vim.opt.softtabstop = 3
-vim.opt.shiftwidth = 3
-vim.opt.tabstop = 3
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 
 -- space as leader
 vim.g.mapleader = " "
