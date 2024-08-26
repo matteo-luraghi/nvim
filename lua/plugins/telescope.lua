@@ -3,13 +3,12 @@ return {
   {
     "nvim-telescope/telescope.nvim",
     branch = "0.1.x",
-    keys = {
-      { "<C-f>",  require("telescope.builtin").find_files, desc = "Find Files" },
-      { "<C-gf>", require("telescope.builtin").git_files,  desc = "Find Git Files" },
-      { "<C-p>",  require("telescope.builtin").live_grep,  desc = "Grep" },
-    },
     config = function()
       require("telescope").setup({})
+      local builtin = require("telescope.builtin")
+      vim.keymap.set("n", "<C-f>", builtin.find_files, {})
+      vim.keymap.set("n", "<C-gf>", builtin.git_files, {})
+      vim.keymap.set("n", "<C-p>", builtin.live_grep, {})
     end,
     dependencies = {
       "nvim-lua/plenary.nvim",
