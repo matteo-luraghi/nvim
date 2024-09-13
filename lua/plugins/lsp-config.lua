@@ -23,7 +23,7 @@ return {
           "htmx",
           "jsonls",
           "jdtls",    -- java, or java_language_server
-          "tsserver", -- ts
+          "ts_ls", -- ts
           "quick_lint_js", -- or vtsls
           "intelephense", -- php
           "pyright",  -- or pylsp or ruff
@@ -54,7 +54,7 @@ return {
       lspconfig.htmx.setup({ capabilities = capabilities })
       lspconfig.jsonls.setup({ capabilities = capabilities })
       lspconfig.jdtls.setup({ capabilities = capabilities })
-      lspconfig.tsserver.setup({ capabilities = capabilities })
+      lspconfig.ts_ls.setup({ capabilities = capabilities })
       lspconfig.quick_lint_js.setup({ capabilities = capabilities })
       lspconfig.intelephense.setup({ capabilities = capabilities })
       lspconfig.pyright.setup({ capabilities = capabilities })
