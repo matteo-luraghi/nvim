@@ -2,6 +2,8 @@
 
 Welcome to my Neovim configuration! This setup is tailored for an efficient and enjoyable development experience. Below you'll find details about the installed plugins, package manager, and keybindings.
 
+![home](https://github.com/user-attachments/assets/df0cc199-2aba-405e-ab4b-50db07f5ede6)
+
 ## 📚 Table of Contents
 
 - [Package Manager](#package-manager)
