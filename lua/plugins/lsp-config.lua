@@ -22,11 +22,11 @@ return {
           "html",
           "htmx",
           "jsonls",
-          "jdtls",    -- java, or java_language_server
-          "ts_ls", -- ts
+          "jdtls",         -- java, or java_language_server
+          "ts_ls",         -- ts
           "quick_lint_js", -- or vtsls
-          "intelephense", -- php
-          "pyright",  -- or pylsp or ruff
+          "intelephense",  -- php
+          "pyright",       -- or pylsp
           "rust_analyzer",
           "sqlls",
           "lemminx", -- xml
@@ -84,25 +84,25 @@ return {
       require("mason-tool-installer").setup({
         ensure_installed = {
           -- linters
-          "golangci-lint", -- Go
-          "pylint",        -- Python
-          "checkstyle",    -- Java
+          "golangci-lint",      -- Go
+          "pylint",             -- Python
+          "checkstyle",         -- Java
           -- formatters
-          "black",         -- Python
-          "isort",         -- Python imports
-          "stylua",        -- Lua
-          "clang-format",  -- C, C++
-          "gofumpt",       -- Go
-          "goimports",     -- Go
-          "golines",       -- Go
-          "gotests",       -- Go
+          "black",              -- Python
+          "isort",              -- Python imports
+          "stylua",             -- Lua
+          "clang-format",       -- C, C++
+          "gofumpt",            -- Go
+          "goimports",          -- Go
+          "golines",            -- Go
+          "gotests",            -- Go
           "google-java-format", -- Java
-          "mdformat",      -- Markdown
-          "phpcbf",        -- PHP
-          "prettier",      -- JS, TS, CSS, etc.
-          "shfmt",         -- Shell
+          "mdformat",           -- Markdown
+          "phpcbf",             -- PHP
+          "prettier",           -- JS, TS, CSS, etc.
+          "shfmt",              -- Shell
         },
-        auto_update = false,
+        auto_update = true,
         run_on_start = true,
       })
     end,
