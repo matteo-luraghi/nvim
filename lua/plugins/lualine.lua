@@ -25,6 +25,7 @@ return {
 				lualine_a = { "mode" },
 				lualine_b = { "branch", "diff", "diagnostics" },
 				lualine_c = { "searchcount", "selectioncount", "filename" },
+				lualine_x = {},
 				lualine_y = { "fileformat", "encoding" },
 				lualine_z = { "filetype" },
 			},
