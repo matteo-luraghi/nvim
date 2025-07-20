@@ -53,7 +53,6 @@ return {
       lspconfig.html.setup({ capabilities = capabilities })
       lspconfig.htmx.setup({ capabilities = capabilities })
       lspconfig.jsonls.setup({ capabilities = capabilities })
-      lspconfig.jdtls.setup({ capabilities = capabilities })
       lspconfig.ts_ls.setup({ capabilities = capabilities })
       lspconfig.quick_lint_js.setup({ capabilities = capabilities })
       lspconfig.intelephense.setup({ capabilities = capabilities })
